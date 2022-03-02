@@ -1,0 +1,221 @@
+:root {
+  --theme-main: #000000;
+  --theme-accent: #2196f3;
+  --theme-light: #ffffff;
+  --theme-description: #757575;
+  --theme-contacts: rgba(255, 255, 255, 0.6);
+  --theme-nav: #212121;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--theme-description);
+}
+
+/* header */
+
+.logo-head {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--theme-main);
+  text-decoration: none;
+}
+
+.logo-first-word {
+  color: var(--theme-accent);
+}
+
+.nav-list,
+.contacts-list,
+.benefits-list,
+.employment-list,
+.team-list,
+.portfolio-filter-list,
+.examples-section-list {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--theme-nav);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:visited {
+  color: var(--theme-nav);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--theme-accent);
+}
+
+.contacts-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--theme-description);
+}
+
+.contacts-link:visited {
+  color: var(--theme-description);
+}
+
+/* hero-section */
+
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--theme-light);
+}
+
+.hero-btn {
+  color: var(--theme-light);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* benefits */
+
+.benefits-title,
+.portfolio-filter-title,
+.examples-section-title {
+  display: none;
+}
+
+.benefits-item-title {
+  color: var(--theme-nav);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* team */
+
+.employment-title,
+.team-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-nav);
+}
+
+.team-item-title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-nav);
+}
+
+.team-item-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-description);
+}
+
+/* footer */
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--theme-light);
+  text-decoration: none;
+}
+
+.address {
+  color: var(--theme-light);
+  font-style: normal;
+}
+
+.contacts-link-footer {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--theme-contacts);
+}
+
+.contacts-link-footer:visited {
+  color: var(--theme-contacts);
+}
+
+/*  portfolio filter  */
+
+.portfolio-filter-button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--theme-nav);
+}
+
+/* portfolio */
+
+.company-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--theme-nav);
+}
+
+.company-description {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--theme-description);
+}
