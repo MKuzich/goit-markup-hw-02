@@ -5,20 +5,21 @@
   --theme-description: #757575;
   --theme-contacts: rgba(255, 255, 255, 0.6);
   --theme-nav: #212121;
+  --theme-bckgrnd-hero: #2f303a;
+  --theme-btn: #2196f3;
+  --theme-bckgrnd-team: #f5f4fa;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--theme-description);
+  background-color: var(--theme-light);
 }
 
 /* header */
 
-.logo-head {
+.logo-header {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -45,7 +46,6 @@ body {
 .nav-link {
   text-decoration: none;
   color: var(--theme-nav);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -65,7 +65,6 @@ body {
 
 .contacts-link {
   text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -80,8 +79,11 @@ body {
 
 /* hero-section */
 
+.hero {
+  background-color: var(--theme-bckgrnd-hero);
+}
+
 .hero-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,7 +95,8 @@ body {
 
 .hero-btn {
   color: var(--theme-light);
-  font-family: Roboto;
+  background-color: var(--theme-btn);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -114,7 +117,6 @@ body {
 
 .benefits-item-title {
   color: var(--theme-nav);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -122,11 +124,23 @@ body {
   text-transform: uppercase;
 }
 
+.benefits-item-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 /* team */
+
+.team-section {
+  background-color: var(--theme-bckgrnd-team);
+}
+
+.team-item {
+  background-color: var(--theme-light);
+}
 
 .employment-title,
 .team-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -136,7 +150,6 @@ body {
 }
 
 .team-item-title {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -146,7 +159,6 @@ body {
 }
 
 .team-item-text {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -156,6 +168,10 @@ body {
 }
 
 /* footer */
+
+.footer {
+  background-color: var(--theme-bckgrnd-hero);
+}
 
 .logo-footer {
   font-family: Raleway;
@@ -174,13 +190,17 @@ body {
 
 .contacts-link-footer {
   text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--theme-contacts);
+}
+
+.contacts-link-footer:hover,
+.contacts-link-footer:focus {
+  color: var(--theme-accent);
 }
 
 .contacts-link-footer:visited {
@@ -190,7 +210,7 @@ body {
 /*  portfolio filter  */
 
 .portfolio-filter-button {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -200,10 +220,15 @@ body {
   color: var(--theme-nav);
 }
 
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+  background-color: var(--theme-accent);
+  color: var(--theme-light);
+}
+
 /* portfolio */
 
 .company-name {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -213,9 +238,22 @@ body {
 }
 
 .company-description {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--theme-description);
+}
+
+.current {
+  color: var(--theme-accent);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.current-btn {
+  background-color: var(--theme-accent);
+  color: var(--theme-light);
 }
