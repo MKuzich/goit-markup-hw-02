@@ -55,9 +55,9 @@ address {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  span {
-    color: var(--dark-color);
-  }
+}
+.logo-accent {
+  color: var(--dark-color);
 }
 .header-nav-link {
   color: var(--dark-color);
