@@ -128,12 +128,12 @@ address {
 
 .footer {
   background-color: var(--hero-bg-color);
-  .logo {
-    margin-bottom: 16px;
-    span {
-      color: var(--white-color);
-    }
-  }
+}
+.footer-logo {
+  margin-bottom: 16px;
+}
+.footer-logo-accent {
+  color: var(--white-color);
 }
 .footer-text {
   color: var(--white-color);
