@@ -133,8 +133,8 @@ address {
   margin-bottom: 16px;
 }
 .footer-logo-accent {
-  color: var(--white-color);
+  color: var(--light-color);
 }
 .footer-text {
-  color: var(--white-color);
+  color: var(--light-color);
 }
